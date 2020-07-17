@@ -42,7 +42,9 @@ ul {
 .page-nav .link:hover,
 .page-nav .link:focus,
 .contacts-nav .link:hover,
-.contacts-nav .link:focus {
+.contacts-nav .link:focus,
+.addr-cont:hover,
+.addr-cont:focus {
   color: var(--accent-color);
   text-decoration: none;
 }
