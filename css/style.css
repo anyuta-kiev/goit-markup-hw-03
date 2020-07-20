@@ -13,7 +13,8 @@ body {
   font-family: Roboto, sans-serif;
 }
 
-ul {
+ul,
+p {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -34,6 +35,8 @@ button {
   line-height: 1.19;
   letter-spacing: 0.03em;
   text-decoration: none;
+  padding-top: 60px;
+  padding-bottom: 20px;
 }
 
 .accent-blue {
@@ -104,11 +107,9 @@ button {
   display: inline-block;
   min-width: 136px;
   text-align: center;
-  border-radius: 4px;
 }
 
 .details {
-  padding: 0;
   margin-top: 0;
   margin-bottom: 10px;
   font-weight: 700;
@@ -120,6 +121,8 @@ button {
 }
 
 .details-title {
+  margin-top: 0;
+  margin-bottom: 0px;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -128,6 +131,8 @@ button {
 .works,
 .command,
 .clients {
+  margin-top: 0;
+  margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -137,6 +142,8 @@ button {
 }
 
 .works-title {
+  margin-top: 0;
+  margin-bottom: 0;
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
@@ -148,6 +155,8 @@ button {
 }
 
 .command-member {
+  margin-top: 0;
+  margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -157,6 +166,8 @@ button {
 }
 
 .member-profession {
+  margin-top: 0;
+  margin-bottom: 16px;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
@@ -173,6 +184,8 @@ footer {
 }
 
 .address-title {
+  margin-top: 0;
+  margin-bottom: 9px;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -182,6 +195,8 @@ footer {
 }
 
 .address-join {
+  padding-top: 52px;
+  padding-bottom: 20px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -196,9 +211,14 @@ footer {
   font-family: Roboto;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.63;
+  line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
+  border-radius: 4px;
+  padding: 6px 22px;
+  display: inline-block;
+  min-width: 73px;
+  text-align: center;
 }
 
 .button-portfolio:hover,
@@ -212,6 +232,8 @@ footer {
 }
 
 .filter-heading {
+  margin-top: 0;
+  margin-bottom: 4px;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -243,6 +265,18 @@ footer {
   outline: 2px solid tomato;
 }
 
-.navigation-contacts {
+.navigation-contacts,
+.hero,
+.section {
   background-color: cyan;
 }
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+/* .section.no-padding {
+  padding-top: 0;
+  padding-bottom: 0;
+} */
