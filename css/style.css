@@ -68,7 +68,6 @@ button {
   margin-right: 50px;
 }
 
-.navigation-logo,
 .navigation-title,
 .contacts-title {
   display: flex;
@@ -79,14 +78,19 @@ button {
   outline: 1px solid black;
 }
 
-/* .section.no-padding {
-  padding-top: 0;
-  padding-bottom: 0;
-} */
+.navigation-title {
+  margin-left: 85px;
+}
 
 .main-nav {
   display: flex;
+  align-items: center;
 }
+
+/* .icon {
+  margin: auto;
+} */
+
 .navigation-title .link {
   display: block;
   color: var(--title-text-color);
@@ -99,6 +103,14 @@ button {
   padding-bottom: 32px;
 }
 
+.contacts {
+  margin-left: auto;
+}
+
+.item + .item {
+  margin-left: 30px;
+}
+
 .contacts-title .link {
   display: block;
   color: var(--primary-text-color);
@@ -107,8 +119,8 @@ button {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  padding-top: 32px;
-  padding-bottom: 32px;
+  /* padding-top: 32px;
+  padding-bottom: 32px; */
 }
 
 .navigation-title .link:hover,
