@@ -15,16 +15,18 @@
     <!-- Шапка страницы -->
     <header class="navigation-contacts">
       <!-- Навигация на другие страницы -->
-      <div class="container">
-        <nav class="navigation">
+      <div class="container main-nav">
+        <nav class="navigation main-nav">
           <a href="index.html" class="logo"
             ><span class="accent-blue">Web</span
             ><span class="accent-dark">Studio</span></a
           >
           <ul class="navigation-title">
-            <li><a href="" class="link current">Студия</a></li>
-            <li><a href="portfolio.html" class="link">Портфолио</a></li>
-            <li><a href="" class="link">Контакты</a></li>
+            <li class="item"><a href="" class="link current">Студия</a></li>
+            <li class="item">
+              <a href="portfolio.html" class="link">Портфолио</a>
+            </li>
+            <li class="item"><a href="" class="link">Контакты</a></li>
           </ul>
         </nav>
 
@@ -51,7 +53,7 @@
     <main>
       <!-- Герой -->
       <section class="hero">
-        <div class="container">
+        <div>
           <h1 class="hero-title">
             Эффективные решения <br />
             для вашего бизнеса
@@ -61,10 +63,10 @@
         </div>
       </section>
 
+      <h2 hidden>Наши приимущества</h2>
       <section class="section">
         <div class="container">
-          <h2 hidden>Наши приимущества</h2>
-          <ul>
+          <ul class="det">
             <li>
               <h3 class="details">Внимание к деталям</h3>
               <p class="details-title">
@@ -352,7 +354,7 @@
     </main>
 
     <!-- Подвал -->
-    <footer>
+    <footer class="section">
       <div class="container">
         <div class="address">
           <p>

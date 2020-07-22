@@ -14,7 +14,7 @@ body {
 }
 
 ul,
-p {
+P {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -35,8 +35,6 @@ button {
   line-height: 1.19;
   letter-spacing: 0.03em;
   text-decoration: none;
-  padding-top: 60px;
-  padding-bottom: 20px;
 }
 
 .accent-blue {
@@ -47,22 +45,70 @@ button {
   color: var(--title-text-color);
 }
 
+.navigation-contacts,
+.hero,
+.section {
+  background-color: cyan;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.container {
+  width: 1170px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  outline: 2px solid tomato;
+}
+
+.navigation-title .item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.navigation-logo,
+.navigation-title,
+.contacts-title {
+  display: flex;
+}
+
+.link {
+  background-color: tomato;
+  outline: 1px solid black;
+}
+
+/* .section.no-padding {
+  padding-top: 0;
+  padding-bottom: 0;
+} */
+
+.main-nav {
+  display: flex;
+}
 .navigation-title .link {
+  display: block;
   color: var(--title-text-color);
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .contacts-title .link {
+  display: block;
   color: var(--primary-text-color);
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .navigation-title .link:hover,
@@ -107,9 +153,15 @@ button {
   display: inline-block;
   min-width: 136px;
   text-align: center;
+  border-radius: 4px;
+}
+
+.det {
+  display: flex;
 }
 
 .details {
+  padding: 0;
   margin-top: 0;
   margin-bottom: 10px;
   font-weight: 700;
@@ -118,6 +170,7 @@ button {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--title-text-color);
+  display: flex;
 }
 
 .details-title {
@@ -256,27 +309,3 @@ footer {
   color: var(--text-bg-color);
   background-color: rgba(33, 150, 243, 0.9);
 }
-
-.container {
-  width: 1170px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin: 0 auto;
-  outline: 2px solid tomato;
-}
-
-.navigation-contacts,
-.hero,
-.section {
-  background-color: cyan;
-}
-
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
-/* .section.no-padding {
-  padding-top: 0;
-  padding-bottom: 0;
-} */
