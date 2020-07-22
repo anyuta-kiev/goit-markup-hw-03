@@ -45,7 +45,7 @@ button {
   color: var(--title-text-color);
 }
 
-.navigation-contacts,
+/* .navigation-contacts, */
 .hero,
 .section {
   background-color: cyan;
@@ -87,10 +87,6 @@ button {
   align-items: center;
 }
 
-/* .icon {
-  margin: auto;
-} */
-
 .navigation-title .link {
   display: block;
   color: var(--title-text-color);
@@ -119,8 +115,8 @@ button {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  /* padding-top: 32px;
-  padding-bottom: 32px; */
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .navigation-title .link:hover,
