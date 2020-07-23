@@ -15,31 +15,39 @@
     <!-- Шапка страницы -->
     <header class="navigation-contacts">
       <!-- Навигация на другие страницы -->
-      <div class="container">
-        <nav class="navigation">
+      <div class="container main-nav">
+        <nav class="navigation main-nav">
           <a href="index.html" class="logo"
             ><span class="accent-blue">Web</span
             ><span class="accent-dark">Studio</span></a
           >
           <ul class="navigation-title">
-            <li><a href="index.html" class="link">Студия</a></li>
-            <li><a href="" class="link current">Портфолио</a></li>
-            <li><a href="" class="link">Контакты</a></li>
+            <li class="item-nc">
+              <a href="index.html" class="link">Студия</a>
+            </li>
+            <li class="item-nc">
+              <a href="portfolio.html" class="link current">Портфолио</a>
+            </li>
+            <li class="item-nc"><a href="" class="link">Контакты</a></li>
           </ul>
         </nav>
 
         <!-- Контакты -->
         <div class="contacts">
           <ul class="contacts-title">
-            <li>
+            <li class="item-nc">
               <a href="mailto:info@devstudio.com" class="link">
-                <img src="./images/envelope.svg" alt="эмеил" />
+                <!-- <img class="icon" src="./images/envelope.svg" alt="эмеил" /> -->
                 info@devstudio.com
               </a>
             </li>
-            <li>
+            <li class="item-nc">
               <a href="tel:+3809611111" class="link">
-                <img src="./images/smartphone.svg" alt="мобильный" />
+                <!-- <img
+                      class="icon"
+                      src="./images/smartphone.svg"
+                      alt="мобильный"
+                    /> -->
                 +38 096 111 11 11
               </a>
             </li>
@@ -52,25 +60,27 @@
       <h2 hidden>Примеры работ</h2>
       <section class="section">
         <div class="container">
-          <ul>
-            <li><button type="button" class="button-portfolio">Все</button></li>
-            <li>
+          <ul class="filter-button">
+            <li class="fbp">
+              <button type="button" class="button-portfolio">Все</button>
+            </li>
+            <li class="fbp">
               <button type="button" class="button-portfolio">Веб-сайты</button>
             </li>
-            <li>
+            <li class="fbp">
               <button type="button" class="button-portfolio">Приложения</button>
             </li>
-            <li>
+            <li class="fbp">
               <button type="button" class="button-portfolio">Дизайн</button>
             </li>
-            <li>
+            <li class="fbp">
               <button type="button" class="button-portfolio">Маркетинг</button>
             </li>
           </ul>
         </div>
         <div class="container">
-          <ul>
-            <li>
+          <ul class="filter-list">
+            <li class="item-fl">
               <a href="" class="filter">
                 <img src="./images/primer1.jpg" alt="Технокряк" width="370" />
                 <h3 class="filter-heading">Технокряк</h3>
@@ -82,7 +92,7 @@
                 </p>
               </a>
             </li>
-            <li>
+            <li class="item-fl">
               <a href="" class="filter">
                 <img src="./images/primer2.jpg" alt="Постер" width="370" />
                 <h3 class="filter-heading">
@@ -96,7 +106,7 @@
                 </p>
               </a>
             </li>
-            <li>
+            <li class="item-fl">
               <a href="" class="filter">
                 <img
                   src="./images/primer3.jpg"
@@ -112,7 +122,7 @@
                 </p>
               </a>
             </li>
-            <li>
+            <li class="item-fl">
               <a href="" class="filter">
                 <img
                   src="./images/primer4.jpg"
@@ -128,7 +138,7 @@
                 </p>
               </a>
             </li>
-            <li>
+            <li class="item-fl">
               <a href="" class="filter">
                 <img
                   src="./images/primer5.jpg"
@@ -144,7 +154,7 @@
                 </p>
               </a>
             </li>
-            <li>
+            <li class="item-fl">
               <a href="" class="filter">
                 <img
                   src="./images/primer6.jpg"
@@ -160,7 +170,7 @@
                 </p>
               </a>
             </li>
-            <li>
+            <li class="item-fl">
               <a href="" class="filter">
                 <img
                   src="./images/primer7.jpg"
@@ -176,7 +186,7 @@
                 </p>
               </a>
             </li>
-            <li>
+            <li class="item-fl">
               <a href="" class="filter">
                 <img src="./images/primer8.jpg" alt="Проект LAB" width="370" />
                 <h3 class="filter-heading">Проект LAB</h3>
@@ -188,7 +198,7 @@
                 </p>
               </a>
             </li>
-            <li>
+            <li class="item-fl">
               <a href="" class="filter">
                 <img
                   src="./images/primer9.jpg"
