@@ -199,14 +199,14 @@ button {
   flex-wrap: wrap;
 }
 
-.wt {
+.work-list.wt {
   width: calc((100% - 60px) / 3);
   margin-right: 30px;
 }
 
-/* .work-list .wt:last-of-type {
+.work-list .wt:last-of-type {
   margin-left: 0;
-} */
+}
 
 .works,
 .command,
