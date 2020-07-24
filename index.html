@@ -1,429 +1,280 @@
 <!DOCTYPE html>
-<html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>WebStudio</title>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./css/normalize.css" />
-    <link rel="stylesheet" href="./css/style.css" />
-  </head>
+<html lang="en">
 
-  <body>
-    <!-- Шапка страницы -->
-    <header>
-      <div class="container flexbox">
-        <!-- Навигация на другие страницы -->
-        <nav class="site-nav">
-          <a href="index.html" class="logo"
-            ><span class="accent">Web</span
-            ><span class="accent-dark">Studio</span></a
-          >
-          <ul class="page-nav">
-            <li class="pn-item"><a href="" class="link current">Студия</a></li>
-            <li class="pn-item">
-              <a href="portfolio.html" class="link">Портфолио</a>
-            </li>
-            <li class="pn-item"><a href="" class="link">Контакты</a></li>
-          </ul>
-        </nav>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>WebStudio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;700;900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
 
-        <!-- Контакты -->
-        <ul class="contacts-nav">
-          <li class="cn-link">
-            <a href="mailto:info@devstudio.com" class="link">
-              <img src="./images/envelope.svg" alt="эмеил" />
-              info@devstudio.com
-            </a>
-          </li>
-          <li class="cn-link">
-            <a href="tel:+3809611111" class="link">
-              <img src="./images/smartphone.svg" alt="мобильный" />
-              +38 096 111 11 11
-            </a>
-          </li>
-        </ul>
-      </div>
-    </header>
+<body>
+  <header class="page-header">
+    <a href="./" class="logo"><span class="accent-blue">Web</span><span class="accent-black">Studio</span></a>
+    <!-- Навигация на другие страницы -->
+    <nav class="navigation">
+      <ul class="list menu-list">
+        <li class="menu-item"><a href="./index.html" class="menu-link current">Студия</a></li>
+        <li class="menu-item"><a href="./portfolio.html" class="menu-link">Портфолио</a></li>
+        <li class="menu-item"><a href="#" class="menu-link">Контакты</a></li>
+      </ul>
+      <ul class="list contacts-list">
+        <li class="contacts-item"><a href="mailto:info@devstudio.com" class="contacts-link">info@devstudio.com</a></li>
+        <li class="contacts-item"><a href="tel:+3809611111" class="contacts-link">+38 096 111 11 11</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="hero">
+      <h1 class="page-title">Эффективные решения<br>для вашего бизнеса</h1>
+      <button class="btn-studio">Заказать услугу</button>
+    </section>
 
-    <main>
-      <!-- Герой -->
-      <section class="hero">
-        <h1>Эффективные решения для вашего бизнеса</h1>
+    <section>
+      <ul class="list">
+        <li>
+          <h3 class="advantages">Внимание к деталям</h3>
+          <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+        </li>
+        <li>
+          <h3 class="advantages">Пунктуальность</h3>
+          <p>Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+        </li>
+        <li>
+          <h3 class="advantages">Планирование</h3>
+          <p>Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+        </li>
+        <li>
+          <h3 class="advantages">Современные технологии</h3>
+          <p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+        </li>
+      </ul>
+    </section>
 
-        <!-- <a href=""> -->
-        <button class="button-studio">Заказать услугу</button>
-        <!--</a>-->
-      </section>
+    <section>
+      <h2 class="second-heading">Чем мы занимаемся</h2>
+      <ul class="list">
+        <li>
+          <h3 class="examples">Десктопные приложения</h3>
+          <img src="./images/sec-one.jpg" alt="Ноутбук" width="370" />
+        </li>
+        <li>
+          <h3 class="examples">Мобильные приложения</h3>
+          <img src="./images/sec-two.jpg" alt="Смартфон" width="370" />
+        </li>
+        <li>
+          <h3 class="examples">Дизайнерские решения</h3>
+          <img src="./images/sec-free.jpg" alt="Дизайн" width="370" />
+        </li>
+      </ul>
+    </section>
 
-      <!-- <h2>Наши приимущества</h2> -->
-      <section class="details">
-        <div class="container">
-          <ul>
+    <section>
+      <h2 class="second-heading">Наша команда</h2>
+      <ul class="list">
+        <li>
+          <a href="#" class="employee link">
+            <img src="./images/foto-nk.jpg" alt="Николай Кучеренко" width="270" />
+            <h3 class="employee-name">Николай Кучеренко</h3>
+            <p class="employee-profession">Product Designer</p>
+          </a>
+          <ul class="list">
             <li>
-              <h3 class="details-h3">Внимание к деталям</h3>
-              <p>
-                Идейные соображения, а также начало повседневной работы по
-                формированию позиции.
-              </p>
-            </li>
-            <li>
-              <h3 class="details-h3">Пунктуальность</h3>
-              <p>
-                Задача организации, в особенности же рамки и место обучения
-                кадров влечет за собой.
-              </p>
-            </li>
-            <li>
-              <h3 class="details-h3">Планирование</h3>
-              <p>
-                Равным образом консультация с широким активом в значительной
-                степени обуславливает.
-              </p>
-            </li>
-            <li>
-              <h3 class="details-h3">Современные технологии</h3>
-              <p>
-                Значимость этих проблем настолько очевидна, что реализация
-                плановых заданий.
-              </p>
-            </li>
-          </ul>
-        </div>
-      </section>
-
-      <!-- Что мы умеем/примеры работ -->
-      <section>
-        <div class="container">
-          <h2>Чем мы занимаемся</h2>
-          <ul>
-            <li>
-              <img src="./images/sec-one.jpg" alt="секция1" width="370" />
-              <h3 class="accent-white">Десктопные приложения</h3>
-            </li>
-            <li>
-              <img src="./images/sec-two.jpg" alt="секция2" width="370" />
-              <h3 class="accent-white">Мобильные приложения</h3>
-            </li>
-            <li>
-              <img src="./images/sec-free.jpg" alt="секция3" width="370" />
-              <h3 class="accent-white">Дизайнерские решения</h3>
-            </li>
-          </ul>
-        </div>
-      </section>
-
-      <!-- Персонал -->
-      <section class="our-comand">
-        <div class="container">
-          <h2>Наша команда</h2>
-          <ul>
-            <li>
-              <a href="" class="our-comand link">
-                <img src="./images/foto-nk.jpg" alt="фото1" width="270" />
-                <h3 class="name">Николай Кучеренко</h3>
-                <p class="profeshn">Product Designer</p>
+              <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"
+                aria-label="Ссылка на Instagram" class="link">
+                <img src="./images/instagram.svg" alt="Ссылка Instagram" />
               </a>
-              <ul>
-                <li>
-                  <a
-                    href="https://www.instagram.com/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    aria-label="Ссылка на Instagram"
-                  >
-                    <img
-                      src="./images/instagram.svg"
-                      alt="Ссылка на Instagram"
-                    />
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://twitter.com/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    aria-label="Ссылка на Twitter"
-                  >
-                    <img src="./images/twitter.svg" alt="Ссылка на Twitter" />
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://www.facebook.com/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    aria-label="Ссылка на Facebook"
-                  >
-                    <img src="./images/facebook.svg" alt="Ссылка на Facebook" />
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://www.linkedin.com/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    aria-label="Ссылка на LinkedIn"
-                  >
-                    <img src="./images/linkedin.svg" alt="Ссылка на LinkedIn" />
-                  </a>
-                </li>
-              </ul>
             </li>
             <li>
-              <a href="" class="our-comand link">
-                <img src="./images/foto-oi.jpg" alt="фото1" width="270" />
-                <h3 class="name">Ольга Иванова</h3>
-                <p class="profeshn">Frontend Developer</p>
+              <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer" aria-label="Ссылка на Twitter"
+                class="link">
+                <img src="./images/twitter.svg" alt="Ссылка Twitter" />
               </a>
-              <ul>
-                <li>
-                  <a
-                    href="https://www.instagram.com/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    aria-label="Ссылка на Instagram"
-                  >
-                    <img
-                      src="./images/instagram.svg"
-                      alt="Ссылка на Instagram"
-                    />
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://twitter.com/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    aria-label="Ссылка на Twitter"
-                  >
-                    <img src="./images/twitter.svg" alt="Ссылка на Twitter" />
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://www.facebook.com/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    aria-label="Ссылка на Facebook"
-                  >
-                    <img src="./images/facebook.svg" alt="Ссылка на Facebook" />
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://www.linkedin.com/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    aria-label="Ссылка на LinkedIn"
-                  >
-                    <img src="./images/linkedin.svg" alt="Ссылка на LinkedIn" />
-                  </a>
-                </li>
-              </ul>
             </li>
             <li>
-              <a href="" class="our-comand link">
-                <img src="./images/foto-ash.jpg" alt="фото1" width="270" />
-                <h3 class="name">Андрей Шевченко</h3>
-                <p class="profeshn">Marketing</p>
+              <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer"
+                aria-label="Ссылка на Facebook" class="link">
+                <img src="./images/facebook.svg" alt="Ссылка Facebook" />
               </a>
-              <ul>
-                <li>
-                  <a
-                    href="https://www.instagram.com/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    aria-label="Ссылка на Instagram"
-                  >
-                    <img
-                      src="./images/instagram.svg"
-                      alt="Ссылка на Instagram"
-                    />
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://twitter.com/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    aria-label="Ссылка на Twitter"
-                  >
-                    <img src="./images/twitter.svg" alt="Ссылка на Twitter" />
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://www.facebook.com/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    aria-label="Ссылка на Facebook"
-                  >
-                    <img src="./images/facebook.svg" alt="Ссылка на Facebook" />
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://www.linkedin.com/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    aria-label="Ссылка на LinkedIn"
-                  >
-                    <img src="./images/linkedin.svg" alt="Ссылка на LinkedIn" />
-                  </a>
-                </li>
-              </ul>
             </li>
             <li>
-              <a href="" class="our-comand link">
-                <img src="./images/foto-in.jpg" alt="фото1" width="270" />
-                <h3 class="name">Иван Николаев</h3>
-                <p class="profeshn">UI Designer</p>
+              <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer"
+                aria-label="Ссылка на LinkedIn" class="link">
+                <img src="./images/linkedin.svg" alt="Ссылка LinkedIn" />
               </a>
-              <ul>
-                <li>
-                  <a
-                    href="https://www.instagram.com/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    aria-label="Ссылка на Instagram"
-                  >
-                    <img
-                      src="./images/instagram.svg"
-                      alt="Ссылка на Instagram"
-                    />
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://twitter.com/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    aria-label="Ссылка на Twitter"
-                  >
-                    <img src="./images/twitter.svg" alt="Ссылка на Twitter" />
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://www.facebook.com/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    aria-label="Ссылка на Facebook"
-                  >
-                    <img src="./images/facebook.svg" alt="Ссылка на Facebook" />
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://www.linkedin.com/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    aria-label="Ссылка на LinkedIn"
-                  >
-                    <img src="./images/linkedin.svg" alt="Ссылка на LinkedIn" />
-                  </a>
-                </li>
-              </ul>
             </li>
           </ul>
-        </div>
-      </section>
-
-      <!-- Логотипы -->
-      <section>
-        <div class="container">
-          <h2>Постоянные клиенты</h2>
-          <ul>
-            <li><a href="" aria-label="ссылка на YA & CO"></a></li>
-            <li><a href="" aria-label="ссылка на TAGLINE HERE COMPANY"></a></li>
-            <li><a href="" aria-label="ссылка на COMPANY"></a></li>
-            <li><a href="" aria-label="ссылка на FOSTER PETERS"></a></li>
-            <li><a href="" aria-label="ссылка на BRAND"></a></li>
-            <li><a href="" aria-label="ссылка на TAG LINE COMPANY"></a></li>
+        </li>
+        <li>
+          <a href="#" class="employee">
+            <img src="./images/foto-oi.jpg" alt="Ольга Иванова" width="270" />
+            <h3 class="employee-name">Ольга Иванова</h3>
+            <p class="employee-profession">Frontend Developer</p>
+          </a>
+          <ul class="list">
+            <li>
+              <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"
+                aria-label="Ссылка на Instagram" class="link">
+                <img src="./images/instagram.svg" alt="Ссылка Instagram" />
+              </a>
+            </li>
+            <li>
+              <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer" aria-label="Ссылка на Twitter"
+                class="link">
+                <img src="./images/twitter.svg" alt="Ссылка Twitter" />
+              </a>
+            </li>
+            <li>
+              <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer"
+                aria-label="Ссылка на Facebook" class="link">
+                <img src="./images/facebook.svg" alt="Ссылка Facebook" />
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer"
+                aria-label="Ссылка на LinkedIn" class="link">
+                <img src="./images/linkedin.svg" alt="Ссылка LinkedIn" />
+              </a>
+            </li>
           </ul>
-        </div>
-      </section>
-    </main>
+        </li>
+        <li>
+          <a href="#" class="employee">
+            <img src="./images/foto-ash.jpg" alt="Андрей Шевченко" width="270" />
+            <h3 class="employee-name">Андрей Шевченко</h3>
+            <p class="employee-profession">Marketing</p>
+          </a>
+          <ul class="list">
+            <li>
+              <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"
+                aria-label="Ссылка на Instagram" class="link">
+                <img src="./images/instagram.svg" alt="Ссылка Instagram" />
+              </a>
+            </li>
+            <li>
+              <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer" aria-label="Ссылка на Twitter"
+                class="link">
+                <img src="./images/twitter.svg" alt="Ссылка Twitter" />
+              </a>
+            </li>
+            <li>
+              <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer"
+                aria-label="Ссылка на Facebook" class="link">
+                <img src="./images/facebook.svg" alt="Ссылка Facebook" />
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer"
+                aria-label="Ссылка на LinkedIn" class="link">
+                <img src="./images/linkedin.svg" alt="Ссылка LinkedIn" />
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="#" class="employee">
+            <img src="./images/foto-in.jpg" alt="Иван Николаев" width="270" />
+            <h3 class="employee-name">Иван Николаев</h3>
+            <p class="employee-profession">UI Designer</p>
+          </a>
+          <ul class="list">
+            <li>
+              <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"
+                aria-label="Ссылка на Instagram" class="link">
+                <img src="./images/instagram.svg" alt="Ссылка Instagram" />
+              </a>
+            </li>
+            <li>
+              <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer" aria-label="Ссылка на Twitter"
+                class="link">
+                <img src="./images/twitter.svg" alt="Ссылка Twitter" />
+              </a>
+            </li>
+            <li>
+              <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer"
+                aria-label="Ссылка на Facebook" class="link">
+                <img src="./images/facebook.svg" alt="Ссылка Facebook" />
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer"
+                aria-label="Ссылка на LinkedIn" class="link">
+                <img src="./images/linkedin.svg" alt="Ссылка LinkedIn" />
+              </a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </section>
 
-    <!-- Подвал -->
-    <footer>
-      <div>
-        <p>
-          <a href="" class="logo"
-            ><span class="accent">Web</span>
-            <span class="logo-white">Studio</span></a
-          >
-        </p>
-        <address class="our-address">
-          г. Киев, Бульвар Леси Украинки, д. 26
-        </address>
+    <section>
+      <h2 class="second-heading">Постоянные клиенты</h2>
+      <ul class="list">
+        <li><a href="" aria-label="ссылка YA & CO"></a></li>
+        <li><a href="" aria-label="ссылка TAGLINE HERE COMPANY"></a></li>
+        <li><a href="" aria-label="ссылка COMPANY"></a></li>
+        <li><a href="" aria-label="ссылка FOSTER PETERS"></a></li>
+        <li><a href="" aria-label="ссылка BRAND"></a></li>
+        <li><a href="" aria-label="ссылка TAG LINE COMPANY"></a></li>
+      </ul>
+    </section>
+  </main>
 
+  <footer>
+    <section>
+      <div class="footer-item">
+        <a href="./" class="logo"><span class="accent-blue">Web</span><span class="accent-white">Studio</span></a>
         <address>
-          <a href="mailto:info@example.com" class="addr-cont"
-            >info@example.com</a
-          >
-          <br />
-          <a href="tel:+380991111111" class="addr-cont">+38 099 111 11 11</a>
+          <ul class="footer list">
+            <li><a href="#" class="link white">г. Киев, Бульвар Леси Украинки, д. 26</a></li>
+            <li><a href="mailto:info@example.com" class="footer-addres link">info@example.com</a></li>
+            <li><a href="tel:+380991111111" class="footer-addres link">+38 099 111 11 11</a></li>
+          </ul>
         </address>
       </div>
 
       <div>
-        <b class="address-join">присоединяйтесь</b>
-        <ul>
+        <b class="examples">присоединяйтесь</b>
+        <ul class="list">
           <li>
-            <a
-              href="https://www.instagram.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="Ссылка на Instagram"
-            >
-              <img src="./images/instagram.svg" alt="Ссылка на Instagram" />
+            <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"
+              aria-label="Ссылка на Instagram">
+              <img src="./images/instagram.svg" alt="Ссылка Instagram" />
             </a>
           </li>
           <li>
-            <a
-              href="https://twitter.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="Ссылка на Twitter"
-            >
-              <img src="./images/twitter.svg" alt="Ссылка на Twitter" />
+            <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer" aria-label="Ссылка на Twitter"
+              class="link">
+              <img src="./images/twitter.svg" alt="Ссылка Twitter" />
             </a>
           </li>
           <li>
-            <a
-              href="https://www.facebook.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="Ссылка на Facebook"
-            >
-              <img src="./images/facebook.svg" alt="Ссылка на Facebook" />
+            <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer"
+              aria-label="Ссылка на Facebook" class="link">
+              <img src="./images/facebook.svg" alt="Ссылка Facebook" />
             </a>
           </li>
           <li>
-            <a
-              href="https://www.linkedin.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="Ссылка на LinkedIn"
-            >
-              <img src="./images/linkedin.svg" alt="Ссылка на LinkedIn" />
+            <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer"
+              aria-label="Ссылка на LinkedIn" class="link">
+              <img src="./images/linkedin.svg" alt="Ссылка LinkedIn" />
             </a>
           </li>
         </ul>
       </div>
 
       <div>
-        <b class="address-join">Подпишитесь на рассылку</b
-        ><input type="text" placeholder="e-mail" />
-        <button type="button" class="button-studio">
+        <b class="examples">Подпишитесь на рассылку</b><input type="text" placeholder="e-mail" />
+        <button type="button" class="btn-studio">
           Подписаться<img src="./images/icon-send.svg" alt="иконка отправки" />
         </button>
       </div>
-    </footer>
-  </body>
+    </section>
+  </footer>
+</body>
+
 </html>
