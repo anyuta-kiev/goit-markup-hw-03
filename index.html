@@ -15,7 +15,7 @@
   <body>
     <!-- Шапка страницы -->
     <header>
-      <div class="container">
+      <div class="container flexbox">
         <!-- Навигация на другие страницы -->
         <nav class="site-nav">
           <a href="index.html" class="logo"
@@ -23,29 +23,29 @@
             ><span class="accent-dark">Studio</span></a
           >
           <ul class="page-nav">
-            <li><a href="" class="link current">Студия</a></li>
-            <li><a href="portfolio.html" class="link">Портфолио</a></li>
-            <li><a href="" class="link">Контакты</a></li>
+            <li class="pn-item"><a href="" class="link current">Студия</a></li>
+            <li class="pn-item">
+              <a href="portfolio.html" class="link">Портфолио</a>
+            </li>
+            <li class="pn-item"><a href="" class="link">Контакты</a></li>
           </ul>
         </nav>
 
         <!-- Контакты -->
-        <div>
-          <ul class="contacts-nav">
-            <li>
-              <a href="mailto:info@devstudio.com" class="link">
-                <img src="./images/envelope.svg" alt="эмеил" />
-                info@devstudio.com
-              </a>
-            </li>
-            <li>
-              <a href="tel:+3809611111" class="link">
-                <img src="./images/smartphone.svg" alt="мобильный" />
-                +38 096 111 11 11
-              </a>
-            </li>
-          </ul>
-        </div>
+        <ul class="contacts-nav">
+          <li class="cn-link">
+            <a href="mailto:info@devstudio.com" class="link">
+              <img src="./images/envelope.svg" alt="эмеил" />
+              info@devstudio.com
+            </a>
+          </li>
+          <li class="cn-link">
+            <a href="tel:+3809611111" class="link">
+              <img src="./images/smartphone.svg" alt="мобильный" />
+              +38 096 111 11 11
+            </a>
+          </li>
+        </ul>
       </div>
     </header>
 
