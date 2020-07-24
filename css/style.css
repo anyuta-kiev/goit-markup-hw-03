@@ -17,6 +17,14 @@ ul {
   list-style: none;
 }
 
+.container {
+  width: 1170px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .site-nav .link {
   color: var(--title-text-color);
   text-decoration: none;
