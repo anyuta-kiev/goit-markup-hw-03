@@ -16,8 +16,37 @@ body {
   color: var(--main-color);
 }
 
+.container {
+  width: 1170px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: auto;
+  margin-bottom: auto;
+  outline: 2px solid tomato;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .list {
   list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.flexbox {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
 }
 
 .logo {
@@ -26,20 +55,18 @@ body {
   font-size: 26px;
   line-height: 1.192;
   text-decoration: none;
+  margin-right: 85px;
 }
 
-.accent-blue,
-.menu-list .current {
-  color: var(--accent-color);
+.menu-list,
+.contacts-list {
+  display: flex;
+  padding: 32px 0;
 }
 
-.accent-black {
-  color: var(--dark-color);
-}
-
-.accent-white,
-.white {
-    color: var(--white);
+.menu-item:not(:last-child),
+.contacts-item:not(:last-child) {
+  margin-right: 50px;
 }
 
 .menu-link {
@@ -57,6 +84,20 @@ body {
 .footer .link:hover,
 .footer .link:focus {
   color: var(--accent-color);
+}
+
+.accent-blue,
+.menu-list .current {
+  color: var(--accent-color);
+}
+
+.accent-black {
+  color: var(--dark-color);
+}
+
+.accent-white,
+.white {
+    color: var(--white);
 }
 
 .contacts-link {
