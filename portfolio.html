@@ -14,14 +14,14 @@
 
 <body>
     <header class="page-header">
-        <div class="container flexbox">
+        <div class="container-hf flexbox">
             <!-- Навигация на другие страницы -->
             <nav class="navigation">
                 <a href="./" class="logo" lang="en"><span class="accent-blue">Web</span>
                     <span class="accent-black">Studio</span></a>
                 <ul class="list menu-list">
-                    <li class="menu-item"><a href="./index.html" class="menu-link current">Студия</a></li>
-                    <li class="menu-item"><a href="./portfolio.html" class="menu-link">Портфолио</a></li>
+                    <li class="menu-item"><a href="./index.html" class="menu-link">Студия</a></li>
+                    <li class="menu-item"><a href="./portfolio.html" class="menu-link current">Портфолио</a></li>
                     <li class="menu-item"><a href="#" class="menu-link">Контакты</a></li>
                 </ul>
             </nav>
@@ -34,8 +34,8 @@
         </div>
     </header>
     <main>
-        <section>
-            <div class="container choice">
+        <section class="container">
+            <div class="choice">
                 <ul class="list choice-list">
                     <li class="choice-item"><button class="btn-portfolio">Все</button></li>
                     <li class="choice-item"><button class="btn-portfolio">Веб-сайты</button></li>
@@ -44,9 +44,6 @@
                     <li class="choice-item"><button class="btn-portfolio">Маркетинг</button></li>
                 </ul>
             </div>
-        </section>
-
-        <section class="container">
             <div class="flexbox">
                 <ul class="list filter-list">
                     <li class="filter-element"><a href="" class="link"><img src="./images/primer1.jpg" alt="Технокряк"
@@ -145,43 +142,42 @@
     </main>
 
     <footer>
-        <section>
+        <section class="container-hf footer flexbox">
             <div class="footer-item">
                 <a href="./" class="logo" lang="en"><span class="accent-blue">Web</span><span
                         class="accent-white">Studio</span></a>
                 <address>
                     <ul class="footer list">
                         <li><a href="#" class="link white">г. Киев, Бульвар Леси Украинки, д. 26</a></li>
-                        <li><a href="mailto:info@example.com" class="footer-addres link" lang="en">
-                                info@example.com</a>
+                        <li><a href="mailto:info@example.com" class="footer-addres link" lang="en">info@example.com</a>
                         </li>
                         <li><a href="tel:+380991111111" class="footer-addres link">+38 099 111 11 11</a></li>
                     </ul>
                 </address>
             </div>
 
-            <div>
-                <b class="examples">присоединяйтесь</b>
-                <ul class="list">
-                    <li>
+            <div class="footer-item">
+                <b class="examples-title">присоединяйтесь</b>
+                <ul class="list fsocial-networks">
+                    <li class="fnetworks-title">
                         <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"
                             aria-label="Ссылка на Instagram">
                             <img src="./images/instagram.svg" alt="Ссылка Instagram" />
                         </a>
                     </li>
-                    <li>
+                    <li class="fnetworks-title">
                         <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer"
                             aria-label="Ссылка на Twitter" class="link">
                             <img src="./images/twitter.svg" alt="Ссылка Twitter" />
                         </a>
                     </li>
-                    <li>
+                    <li class="fnetworks-title">
                         <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer"
                             aria-label="Ссылка на Facebook" class="link">
                             <img src="./images/facebook.svg" alt="Ссылка Facebook" />
                         </a>
                     </li>
-                    <li>
+                    <li class="fnetworks-title">
                         <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer"
                             aria-label="Ссылка на LinkedIn" class="link">
                             <img src="./images/linkedin.svg" alt="Ссылка LinkedIn" />
@@ -190,11 +186,12 @@
                 </ul>
             </div>
 
-            <div>
-                <b class="examples">Подпишитесь на рассылку</b><input type="text" placeholder="e-mail" />
+            <div class="footer-item1">
+                <b class="examples-title">Подпишитесь на рассылку</b><input type="text" placeholder="e-mail" />
                 <button type="button" class="btn-studio">
                     Подписаться<img src="./images/icon-send.svg" alt="иконка отправки" />
                 </button>
+            </div>
             </div>
         </section>
     </footer>
